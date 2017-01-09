@@ -327,10 +327,10 @@ print("hello")
 ### 虎科大機械設計工程系
 
 &lt;small&gt;
-Created by [s40523216](http://chiamingyen.github.io/kmolab/blog/)
+Created by [s40523208](http://chiamingyen.github.io/kmolab/blog/)
 &lt;/small&gt;
 
-[s40523216](blog/index.html)
+[s40523208](blog/index.html)
 
 </t>
 <t tx="amd.20161004104641.1">&lt;section data-markdown&gt;
