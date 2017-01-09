@@ -5,63 +5,63 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>./</loc>
-<lastmod>2016-12-18T23:11:10-00:00</lastmod>
+<lastmod>2017-01-09T00:42:55-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./archives.html</loc>
-<lastmod>2016-12-18T23:11:10-00:00</lastmod>
+<lastmod>2017-01-09T00:42:55-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./tags.html</loc>
-<lastmod>2016-12-18T23:11:10-00:00</lastmod>
+<lastmod>2017-01-09T00:42:55-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./categories.html</loc>
-<lastmod>2016-12-18T23:11:10-00:00</lastmod>
+<lastmod>2017-01-09T00:42:55-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./pages/about/</loc>
-<lastmod>2016-12-18T23:04:05+08:00</lastmod>
+<lastmod>2017-01-09T00:38:34+08:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>./w14-lian-xi.html</loc>
+<loc>./w16.html</loc>
+<lastmod>2016-12-26T14:35:00+08:00</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>./w14lian-xi.html</loc>
 <lastmod>2016-12-12T14:35:00+08:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>./w13.html</loc>
-<lastmod>2016-12-05T12:00:00+08:00</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
 <loc>./w11.html</loc>
-<lastmod>2016-11-28T12:00:00+08:00</lastmod>
+<lastmod>2016-11-21T12:00:00+08:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>./w12.html</loc>
-<lastmod>2016-11-28T12:00:00+08:00</lastmod>
+<loc>./w13.html</loc>
+<lastmod>2016-11-21T12:00:00+08:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -69,20 +69,6 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>./w10.html</loc>
 <lastmod>2016-11-14T12:00:00+08:00</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>./2016fall-cp-xue-yuan-lian-jie.html</loc>
-<lastmod>2016-11-05T12:00:00+08:00</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>./2016fall-cp-qi-zhong-lian-xi.html</loc>
-<lastmod>2016-11-04T12:00:00+08:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -116,71 +102,57 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-<loc>./category/course.html</loc>
-<lastmod>2016-11-05T12:00:00+08:06</lastmod>
-<changefreq>daily</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
 <loc>./category/misc.html</loc>
-<lastmod>2016-12-12T14:35:00+08:06</lastmod>
+<lastmod>2016-12-26T14:35:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./tag/chuang-zao-li.html</loc>
-<lastmod>2016-09-02T12:00:00+08:06</lastmod>
+<lastmod>2016-11-21T12:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./tag/shi-yong-dao-yin.html</loc>
-<lastmod>2016-12-05T12:00:00+08:06</lastmod>
-<changefreq>daily</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>./tag/xie-tong-she-ji.html</loc>
-<lastmod>2016-09-02T12:00:00+08:06</lastmod>
+<lastmod>2016-11-21T12:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./tag/mei-zhou-lian-xi.html</loc>
-<lastmod>2016-12-12T14:35:00+08:06</lastmod>
+<lastmod>2016-12-26T14:35:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./tag/biao-da-neng-li.html</loc>
-<lastmod>2016-09-02T12:00:00+08:06</lastmod>
+<lastmod>2016-11-21T12:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>./tag/ping-fen.html</loc>
-<lastmod>2016-11-05T12:00:00+08:06</lastmod>
+<loc>./tag/xie-tong-she-ji.html</loc>
+<lastmod>2016-11-21T12:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>./author/40523208.html</loc>
-<lastmod>2016-12-12T14:35:00+08:06</lastmod>
+<loc>./author/s40523216.html</loc>
+<lastmod>2016-12-26T14:35:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>./author/yen.html</loc>
-<lastmod>2016-11-05T12:00:00+08:06</lastmod>
+<loc>./author/s40523239.html</loc>
+<lastmod>2016-10-31T12:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
