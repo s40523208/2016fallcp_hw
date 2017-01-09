@@ -194,6 +194,12 @@
 </v>
 </v>
 <v t="leo.20161212143011.1"><vh>@button https server</vh></v>
+<v t="leo.20170109140909.2" a="E"><vh>Recovered Nodes</vh>
+<v t="leo.20170109140909.3"><vh>Recovered node "封面投影片內容" from @clean index.html</vh>
+<v t="leo.20170109140909.4"><vh>old:封面投影片內容</vh></v>
+<v t="leo.20170109140909.5"><vh>new:封面投影片內容</vh></v>
+</v>
+</v>
 </vnodes>
 <tnodes>
 <t tx="amd.20151215170031.1"></t>
@@ -322,10 +328,11 @@ print("hello")
 ### 虎科大機械設計工程系
 
 &lt;small&gt;
-Created by [40523208](https://s40523208.github.io/2016fallcp_hw/blog/)
+Created by [s40523208](http://s40523208.github.io/kmolab/blog/)
 &lt;/small&gt;
 
-[40523208](blog/index.html)
+[s40523208](blog/index.html)
+
 </t>
 <t tx="amd.20161004104641.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
@@ -547,6 +554,46 @@ def domake():
 # 利用執行緒執行 https 伺服器
 make = threading.Thread(target=domake)
 make.start()</t>
+<t tx="leo.20170109140909.2"></t>
+<t tx="leo.20170109140909.3">(uncached) amd.20161004095719.2
+Diff...
+  # 2016Fall 計算機程式課程
+  
+  ### 虎科大機械設計工程系
+  
+  &lt;small&gt;
+- Created by [s40523208](http://s40523208.github.io/kmolab/blog/)
+?             -                                     ^^^ ^^
++ Created by [40523208](https://s40523208.github.io/2016fallcp_hw/blog/)
+?                           +                       ^^^^^^ ^^^^^^
+  &lt;/small&gt;
+  
+- [s40523208](blog/index.html)
+?  -
++ [40523208](blog/index.html)
+- 
+</t>
+<t tx="leo.20170109140909.4"># 2016Fall 計算機程式課程
+
+### 虎科大機械設計工程系
+
+&lt;small&gt;
+Created by [40523208](https://s40523208.github.io/2016fallcp_hw/blog/)
+&lt;/small&gt;
+
+[40523208](blog/index.html)
+</t>
+<t tx="leo.20170109140909.5"># 2016Fall 計算機程式課程
+
+### 虎科大機械設計工程系
+
+&lt;small&gt;
+Created by [s40523208](http://s40523208.github.io/kmolab/blog/)
+&lt;/small&gt;
+
+[s40523208](blog/index.html)
+
+</t>
 <t tx="yen.20161011114704.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
