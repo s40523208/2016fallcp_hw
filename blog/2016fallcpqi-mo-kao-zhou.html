@@ -170,13 +170,12 @@ init_mathjax();
 
         <meta name="author" content="40523208" />
         <meta name="keywords" content="Brython" />
-        <meta name="description" content="期末專題" />
 
         <meta property="og:site_name" content="2016Fall CPB 課程網誌 (虎尾科大MDE)" />
         <meta property="og:type" content="article"/>
         <meta property="og:title" content="2016fallcp期末考週"/>
         <meta property="og:url" content="./2016fallcpqi-mo-kao-zhou.html"/>
-        <meta property="og:description" content="期末專題"/>
+        <meta property="og:description" content=""/>
         <meta property="article:published_time" content="2017-01-09" />
             <meta property="article:section" content="Course" />
             <meta property="article:tag" content="Brython" />
@@ -315,7 +314,128 @@ init_mathjax();
     
 </footer><!-- /.post-info -->                    </div>
                 </div>
-                <p>期末專題</p>
+                <!-- PELICAN_END_SUMMARY -->
+
+<p>w17週心得與程式範例</p>
+<p>w16週心得與程式範例</p>
+<!-- 導入 Brython 標準程式庫 -->
+
+<script type="text/javascript" 
+    src="https://cdn.rawgit.com/brython-dev/brython/master/www/src/brython_dist.js">
+</script>
+
+<!-- 啟動 Brython -->
+
+<script>
+window.onload=function(){
+brython(1);
+}
+</script>
+
+<!-- 以下可以執行  Brython 程式 -->
+
+<div id="id3"></div>
+
+<script type="text/python3">
+from browser import document
+from browser import html
+import random
+
+id3 = document["id3"]
+def guess(ev):
+    # 清除 id3 中的內容
+    id3.clear()
+    id3 <= "開始玩猜數字遊戲" + html.BR()
+    標準答案 = random.randint(1, 100)
+    你猜的數字 = int(input("請輸入您所猜整數:"))
+    猜測次數 = 1
+    while 標準答案 != 你猜的數字:
+        if 標準答案 < 你猜的數字:
+            #print("太大了，再猜一次 :)加油")
+            # 清除 id3 中的內容
+            id3.clear()
+            id3 <= "猜第" + str(猜測次數) + "次, 太大了，再猜一次 :)加油" + html.BR()
+        else:
+            #print("太小了，再猜一次 :)加油")
+            # 清除 id3 中的內容
+            id3.clear()
+            id3 <= "猜第" + str(猜測次數) + "次, 太小了，再猜一次 :)加油" + html.BR()
+        你猜的數字 = int(input("請輸入您所猜整數:"))
+        猜測次數 += 1
+
+    #print("猜對了！總共猜了", 猜測次數, "次")
+    id3 <= "猜對了！答案為" + str(標準答案) + ", 總共猜了" + str(猜測次數) + "次"
+
+document["but3"].bind("click", guess)
+</script>
+
+<p><button id="but3">玩猜數字遊戲</button></p>
+<p>w15週心得與程式範例:
+https://vimeo.com/198637447
+心得:利用python,
+<!-- 導入 Brython 標準程式庫 --></p>
+<script type="text/javascript" 
+    src="https://cdn.rawgit.com/brython-dev/brython/master/www/src/brython_dist.js">
+</script>
+
+<!-- 啟動 Brython -->
+
+<script>
+window.onload=function(){
+brython(1);
+}
+</script>
+
+<!-- 以下可以執行  Brython 程式 -->
+
+<script type="text/python3">
+from browser import document
+from browser import alert
+
+def get_input(ev):
+    the_input= input("請輸入")
+    alert("輸入為:"+str(the_input))
+
+document['ch01'].bind('click',get_input)
+</script>
+
+<p><button id="ch01">取輸入後, 列印出來</button></p>
+<pre class="brush: python">
+
+def get_input(ev):
+    the_input= input("請輸入")
+    alert("輸入為:"+str(the_input))
+
+document['ch01'].bind('click',get_input)
+</pre>
+
+</script>
+
+<div id="container"></div>
+
+<script type="text/python3">
+from browser import document as doc
+from browser import html
+# 利用 document 根據 div 標註 id 設為 container 變數
+container = doc['container']
+
+# 因為此函式與滑鼠互動, 需要 event 當作輸入
+def numPrint(ev):
+    mystring = ""
+    num = input("請輸入重複執行次數:")
+    #for i in range(1, 11):
+    for i in range(1, int(num)+1):
+        mystring += str(i) + ": hello mde" + html.BR()
+    container <= mystring
+
+# 與 id 為 'w13' 對應的 button 綁定, 且滑鼠 click 後, 呼叫 numPrint 函式執行
+doc['w13'].bind('click',numPrint)
+</script>
+
+<p><button id="w13">取重複執行次數後, 列印出來</button></p>
+<iframe src="https://player.vimeo.com/video/199284340" width="640" height="343" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+<p><a href="https://vimeo.com/199284340">2017-01-13 15-38-18</a> from <a href="https://vimeo.com/user57145322">s40523208</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
             </div>
             <!-- /.entry-content -->
         </article>
